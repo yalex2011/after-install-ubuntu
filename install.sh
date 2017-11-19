@@ -42,11 +42,26 @@ sudo apt-get install --install-recommends arc-kde
 # Hex
 # KArc-Transparent
 
+# Dock
+sudo add-apt-repository ppa:rikmills/latte-dock
+sudo apt update 
+sudo apt install latte-dock
+
 ## Terminals
 # https://github.com/railsware/upterm/releases
 wget https://github.com/railsware/upterm/releases/download/v0.4.3/upterm-0.4.3-x86_64-linux.AppImage
 # Editors
 # https://github.com/electron/electron-api-demos/releases
+
+# Tilix – An Advanced Linux Terminal Emulator for Humans
+sudo add-apt-repository ppa:webupd8team/terminix
+sudo apt update
+sudo apt install tilix
+
+# Terminus – A Cross-Platform Modern and Configurable Terminal
+https://github.com/Eugeny/terminus/releases/download/v1.0.0-alpha.36/terminus_1.0.0-alpha.36_amd64.deb
+sudo dpkg -i terminus_1.0.0-alpha.36_amd64.deb
+sudo apt install -f -y
 
 ##
 # Korembi 2 – A Perfect Desktop and Wallpaper Manager for Linux
