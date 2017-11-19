@@ -59,13 +59,13 @@ sudo apt update
 sudo apt install tilix
 
 # Terminus – A Cross-Platform Modern and Configurable Terminal
-https://github.com/Eugeny/terminus/releases/download/v1.0.0-alpha.36/terminus_1.0.0-alpha.36_amd64.deb
+wget https://github.com/Eugeny/terminus/releases/download/v1.0.0-alpha.36/terminus_1.0.0-alpha.36_amd64.deb
 sudo dpkg -i terminus_1.0.0-alpha.36_amd64.deb
 sudo apt install -f -y
 
 ##
 # Korembi 2 – A Perfect Desktop and Wallpaper Manager for Linux
-https://github.com/iabem97/komorebi/releases/download/v2.0/komorebi-2-64-bit.deb
+wget https://github.com/iabem97/komorebi/releases/download/v2.0/komorebi-2-64-bit.deb
 sudo dpkg -i komorebi-2-64-bit.deb
 sudo apt install -f -y
 
@@ -78,3 +78,15 @@ sudo apt install woeusb
 ##
 # Browsers
 apt install QupZilla -y
+
+##
+# Brightness Controller – Take Complete Control of Your Monitor’s Brightness
+sudo add-apt-repository ppa:apandada1/brightness-controller
+sudo apt update 
+sudo apt install brightness-controller
+
+##
+# Linux System Optimizer and Monitoring
+wget https://github.com/oguzhaninan/Stacer/releases/download/v1.0.8/stacer_1.0.8_amd64.deb
+sudo dpkg -i stacer_1.0.8_amd64.deb
+sudo apt install -f -y
