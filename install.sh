@@ -23,3 +23,28 @@ sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo apt-get update
 sudo apt-get install -y ukuu
 
+#
+cd /tmp/
+wget https://github.com/oguzhaninan/Stacer/releases/download/v1.0.8/stacer_1.0.8_amd64.deb
+sudo dpkg -i stacer_1.0.8_amd64.deb
+sudo apt install -f -y
+
+##
+
+# Papirus - it's free and open source SVG-based icon theme for Linux with material and flat style.
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+# Arc KDE - This is a port of the popular GTK theme Arc for Plasma 5 desktop with a few additions and extras.
+sudo apt-get install --install-recommends arc-kde
+# KNumix Light - Flat Theme 
+# Hex Lite
+# Hex
+# KArc-Transparent
+
+## Terminals
+# https://github.com/railsware/upterm/releases
+wget https://github.com/railsware/upterm/releases/download/v0.4.3/upterm-0.4.3-x86_64-linux.AppImage
+# Editors
+# https://github.com/electron/electron-api-demos/releases
+
