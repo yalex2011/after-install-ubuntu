@@ -48,3 +48,18 @@ wget https://github.com/railsware/upterm/releases/download/v0.4.3/upterm-0.4.3-x
 # Editors
 # https://github.com/electron/electron-api-demos/releases
 
+##
+# Korembi 2 – A Perfect Desktop and Wallpaper Manager for Linux
+https://github.com/iabem97/komorebi/releases/download/v2.0/komorebi-2-64-bit.deb
+sudo dpkg -i komorebi-2-64-bit.deb
+sudo apt install -f -y
+
+##
+# WoeUSB – Create Bootable Windows USB Sticks from Linux
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update
+sudo apt install woeusb
+
+##
+# Browsers
+apt install QupZilla -y
